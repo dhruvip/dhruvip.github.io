@@ -1,0 +1,8 @@
+version: '3.2'
+services:
+  app:
+    image: node/docusaurus
+    ports:
+     - '8070:8070'
+    volumes:
+      - '.:/home/node/app'
