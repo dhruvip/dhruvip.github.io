@@ -27,4 +27,3 @@ To preview changes as soon as a file is edited, you can run a local development 
 yarn install
 yarn start
 ```
-
