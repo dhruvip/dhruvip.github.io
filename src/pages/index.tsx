@@ -22,13 +22,11 @@ function HomepageHeader() {
             marginLeft: "60px",
           }}
         >
-          <>📐 Solutions Architect</>
+          <>📐 Data Engineer</>
           <br />
-          <>👨‍💻 Lead Software Engineer</>
+          <>👨‍💻 PO in training</>
           <br />
-          <>🧠 Machine Learning enthusiast</>
-          <br />
-          <>👨‍🎓 Electronics Engineer by training</>
+          <>🧠 Data Science and ML enthusiast</>
         </div>
       </div>
     </header>

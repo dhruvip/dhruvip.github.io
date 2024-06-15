@@ -4,19 +4,19 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "difranca",
+  title: "Dhruvi Pandya",
   tagline: "Dinosaurs are cool",
-  url: "https://difranca.github.io",
+  url: "https://dhruvip.github.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/ladybug.ico",
   trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "difranca", // Usually your GitHub org/user name.
-  projectName: "difranca.github.io", // Usually your repo name.
+  organizationName: "dhruvip", // Usually your GitHub org/user name.
+  projectName: "dhruvip.github.io", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -36,16 +36,22 @@ const config = {
           path: "docs/tech",
           routeBasePath: "tech-notes",
           sidebarPath: require.resolve("./sidebar-tech.js"),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/difranca/difranca.github.io/blob/main",
+          showLastUpdateTime: true
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-        gtag: {
-          trackingID: "G-6WT9XWQMQ5",
-        },
+        // gtag: {
+        //   trackingID: "G-6WT9XWQMQ5",
+        // },
+        // blog: {
+        //   blogTitle: 'Docusaurus blog!',
+        //   blogDescription: 'A Docusaurus powered blog!',
+        //   postsPerPage: 'ALL',
+        //   blogSidebarTitle: 'All posts',
+        //   blogSidebarCount: 'ALL',
+        // },
+        blog: false,
       }),
     ],
   ],
@@ -97,10 +103,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: "difranca",
+        title: "dhruvip",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.png",
+          src: "img/ladybug.png",
         },
         items: [
           {
@@ -110,10 +116,11 @@ const config = {
             label: "Tech-Notes",
           },
           {
-            href: "https://github.com/difranca/difranca.github.io",
+            href: "https://github.com/dhruvip/dhruvip.github.io",
             label: "GitHub",
             position: "right",
           },
+          // {to: 'blog', label: 'Blog', position: 'left'},
         ],
       },
 
@@ -135,11 +142,11 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/difranca",
+                href: "https://github.com/dhruvip",
               },
               {
                 label: "LinkedIn",
-                href: "https://www.linkedin.com/in/difranca",
+                href: "https://www.linkedin.com/in/dhruvi-pandya-769067ba",
               },
             ],
           },
@@ -166,11 +173,11 @@ const config = {
           },
         ],
       },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.oceanicNext,
-        additionalLanguages: ["bash", "hcl", "yaml"],
-      },
+      // prism: {
+      //   theme: prismThemes.github,
+      //   darkTheme: prismThemes.oceanicNext,
+      //   additionalLanguages: ["bash", "hcl", "yaml"],
+      // },
     }),
 };
 

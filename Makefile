@@ -1,6 +1,6 @@
 .PHONY: build
 build: 
-	docker build -t node/docusaurus .
+	docker build --no-cache -t node/docusaurus .
 
 .PHONY: up
 up:

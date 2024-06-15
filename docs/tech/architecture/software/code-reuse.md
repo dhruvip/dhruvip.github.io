@@ -4,6 +4,9 @@ keywords:
 title: Code Reuse | Software | Architecture | Tech-Notes
 description: There are several ways in which common components can be shared, especially in distributed architectures.
 sidebar_label: Code Reuse
+# id:
+# slug:
+# tags:
 ---
 
 # Code Reuse
