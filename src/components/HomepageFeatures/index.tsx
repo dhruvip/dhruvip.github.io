@@ -13,7 +13,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: "Tech-Notes",
     link: "/tech-notes/",
-    img: "img/tech-notes.gif",
+    img: "img/giphy15.gif",
     description: (
       <>
         Tech-Notes comprises my learning notes on various tech subjects.
@@ -25,17 +25,17 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "GitHub Project",
-    img: "https://github-readme-stats.vercel.app/api/pin/?username=difranca&repo=difranca.github.io",
-    link: "https://github.com/difranca/difranca.github.io",
+    img: "https://github-readme-stats.vercel.app/api/pin/?username=dhruvip&repo=dhruvip.github.io",
+    link: "https://github.com/dhruvip/dhruvip.github.io",
     description: (
       <>
         This website source code is available at GitHub.
         <br />
         If you liked it, you can{" "}
-        <a href="https://github.com/difranca/difranca.github.io">
+        <a href="https://github.com/dhruvip/dhruvip.github.io">
           Star
         </a> or{" "}
-        <a href="https://github.com/difranca/difranca.github.io/subscription">
+        <a href="https://github.com/dhruvip/dhruvip.github.io/subscription">
           Watch
         </a>{" "}
         the project.
@@ -49,7 +49,7 @@ function Feature({ title, link, img: img, description }: FeatureItem) {
     <div className={clsx("col col--6")}>
       <a className="text--center" href={link}>
         <div className="feature-logo">
-          <img src={img} alt={title} height="100px" width="333px"></img>
+          <img src={img} alt={title} height="300px" width="333px"></img>
         </div>
       </a>
       <div className="text--center padding-horiz--md">
