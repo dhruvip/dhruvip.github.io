@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdhruvip=self.webpackChunkdhruvip||[]).push([[121],{8070:e=>{e.exports=JSON.parse('[{"label":"demo","permalink":"/tech-notes/tags/demo","count":3},{"label":"further test","permalink":"/tech-notes/tags/further-test","count":2},{"label":"test","permalink":"/tech-notes/tags/test","count":1}]')}}]);
