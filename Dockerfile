@@ -7,6 +7,6 @@ COPY . .
 # and the fetched modules dont get saved
 RUN rm -rf node_modules && mkdir node_modules
 RUN yarn install
-CMD ["yarn", "start","--host=0.0.0.0","--port=8070"]
+# CMD ["yarn", "start","--host=0.0.0.0","--port=8070"]
 
 # CMD tail -f /dev/null

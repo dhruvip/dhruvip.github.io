@@ -20,121 +20,22 @@ const sidebars = {
 
   tech: [
     "index",
-    // {
-    //   type: "category",
-    //   label: "☁ Cloud",
-    //   collapsed: false,
-    //   collapsible: false,
-    //   link: {
-    //     type: "doc",
-    //     id: "cloud/index",
-    //   },
-    //   items: [
-    //     {
-    //       type: "category",
-    //       label: "AWS",
-    //       link: {
-    //         type: "doc",
-    //         id: "cloud/aws/index",
-    //       },
-    //       items: ["cloud/aws/ec2", "cloud/aws/s3"],
-    //     },
-    //     {
-    //       type: "category",
-    //       label: "Kubernetes",
-    //       link: {
-    //         type: "doc",
-    //         id: "cloud/kubernetes/index",
-    //       },
-    //       items: [
-    //         "cloud/kubernetes/namespace",
-    //         {
-    //           type: "link",
-    //           label: "Cheats",
-    //           href: "/tech-notes/cheats/kubernetes/kubectl",
-    //         },],
-    //     },
-    //     {
-    //       type: "category",
-    //       label: "Terraform",
-    //       link: {
-    //         type: "doc",
-    //         id: "cloud/terraform/index",
-    //       },
-    //       items: ["cloud/terraform/backend"],
-    //     },
-    //   ],
-    // },
-    // {
-    //   type: "category",
-    //   label: "♾ DevSecOps",
-    //   collapsed: false,
-    //   collapsible: false,
-    //   link: {
-    //     type: "doc",
-    //     id: "devsecops/index",
-    //   },
-    //   items: [
-    //     {
-    //       type: "category",
-    //       label: "Argo CD",
-    //       link: { type: "doc", id: "devsecops/argocd/index" },
-    //       items: ["devsecops/argocd/architecture"],
-    //     },
-    //     {
-    //       type: "category",
-    //       label: "Git",
-    //       link: { type: "doc", id: "devsecops/git/index" },
-    //       items: [
-    //         "devsecops/git/pre-commit",
-    //         {
-    //           type: "link",
-    //           label: "Cheats",
-    //           href: "/tech-notes/cheats/devsecops/git",
-    //         },
-    //       ],
-    //     },
-    //   ],
-    // },
-    // {
-    //   type: "category",
-    //   label: "📐 Architecture",
-    //   collapsed: false,
-    //   collapsible: false,
-    //   link: {
-    //     type: "doc",
-    //     id: "architecture/index",
-    //   },
-    //   items: [
-    //     {
-    //       type: "category",
-    //       label: "Software",
-    //       link: {
-    //         type: "doc",
-    //         id: "architecture/software/index",
-    //       },
-    //       items: ["architecture/software/code-reuse"],
-    //     },
-    //   ],
-    // },
-    // {
-    //   type: "category",
-    //   label: "👨‍💻 Programming Languages",
-    //   collapsed: false,
-    //   collapsible: false,
-    //   link: {
-    //     type: "doc",
-    //     id: "languages/index",
-    //   },
-    //   items: [
-    //     {
-    //       type: "category",
-    //       label: "JavaScript",
-    //       link: { type: "doc", id: "languages/javascript/index" },
-    //       items: ["languages/javascript/throttle-debounce"],
-    //     },
-    //   ],
-    // },
+    {
+      type: "category",
+      label: "Test Folder",
+      link: {
+        type: "doc",
+        id: "test-folder/index",
+      },
+      items: [
+        {
+          type: "category",
+          label: "Further test",
+          link: { type: "doc", id: "test-folder/further-test/index"},
+          items: ["test-folder/further-test/testing123"],
+        }
+      ]
+    },
     {
       type: "category",
       label: "🧾 Cheat Sheets",

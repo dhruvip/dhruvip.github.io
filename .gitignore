@@ -21,3 +21,5 @@ yarn-error.log*
 
 # VSCode
 .vscode
+
+docs/tech/architecture/*
