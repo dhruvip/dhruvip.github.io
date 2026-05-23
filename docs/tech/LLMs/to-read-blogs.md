@@ -1,2 +1,0 @@
-- https://towardsdatascience.com/author/lihigurarie/
-- fine tune LLM with code: https://huggingface.co/blog/personal-copilot
